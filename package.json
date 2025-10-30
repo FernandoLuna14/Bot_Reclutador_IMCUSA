@@ -1,0 +1,15 @@
+{
+  "name": "bot-reclutador-imcusa",
+  "version": "1.0.0",
+  "description": "Bot de reclutamiento para Grupo IMCUSA con integración a WhatsApp y almacenamiento en Excel",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "xlsx": "^0.18.5",
+    "dotenv": "^16.0.3"
+  }
+}
