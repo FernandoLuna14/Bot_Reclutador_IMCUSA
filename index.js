@@ -106,3 +106,5 @@ app.post("/webhook", (req, res) => {
 // --- Iniciar servidor local ---
 app.listen(3000, () => console.log("Servidor activo en http://localhost:3000")); 
 "// Google Sheets integration - $(date)" 
+ 
+"// éltima actualizaci¢n: $(date) - Debug Google Sheets" 
