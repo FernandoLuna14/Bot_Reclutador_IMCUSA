@@ -56,7 +56,7 @@ async function guardarEnSheets(datos) {
 
         const response = await sheets.spreadsheets.values.append({
             spreadsheetId: spreadsheetId,
-            range: 'Sheet1!A:G',
+            range: 'Candidatos IMCUSA!A:G',
             valueInputOption: 'RAW',
             insertDataOption: 'INSERT_ROWS',
             resource: {
